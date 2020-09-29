@@ -3,14 +3,16 @@ div h1 {
 }
 ​
 .center-info {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-​
+
 img {
-    display: block;
-    margin: 0 auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
-​
-.center-info h1 {
+h1 {
     text-align: center;
 }
